@@ -49,7 +49,7 @@ public class PolicyController {
 	   
    }
    
-   @RequestMapping(value="/policies", method= RequestMethod.POST)
+   @RequestMapping(value="/policies", method= RequestMethod.GET)
    public List<Policy> getPolicies()
    {
 	   return policyService.getPolicies();
